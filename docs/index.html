@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Documentation produced by the Html generator of Bouml (http://www.bouml.fr) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg">
+
+<head>
+<title>Untitled
+Documentation</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">Untitled<br />Documentation</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref22_129"></a>
+<p>Properties:</p><ul>
+<li>html dir:<br /><div class="sub">/Users/ivanzharinov/work/umls/</div></li>
+</ul>
+<a name="ref22_128099"></a>
+<h1 class ="package">1 Package src</h1>
+<div class="sub">
+<a name="ref22_128227"></a>
+<h2 class ="package">1.1 Package include</h2>
+<p></p><ul>
+<li>C++ namespace : ImageArch</li>
+</ul>
+<div class="sub">
+<a name="ref18_128099"></a>
+<h3 class ="view">1.1.1 Class View include</h3>
+<div class="sub">
+<a name="ref4_128099"></a>
+<h4 class ="class">1.1.1.1 Class byte</h4>
+<p>Declaration :</p><ul>
+<li>C++ : typedef unsigned char byte; </li></ul><p>Artifact : <a href="index.html#ref8_128099"><b>common</b></a></p>
+<p>Stereotype: typedef</p>
+<a name="ref4_128227"></a>
+<h4 class ="class">1.1.1.2 Class u32</h4>
+<p>Declaration :</p><ul>
+<li>C++ : typedef unsigned int  u32; </li></ul><p>Artifact : <a href="index.html#ref8_128099"><b>common</b></a></p>
+<p>Stereotype: typedef</p>
+<a name="ref4_128355"></a>
+<h4 class ="class">1.1.1.3 Class Vec2</h4>
+<p>Declaration :</p><ul>
+<li>C++ : struct Vec2 </li></ul><p>Artifact : <a href="index.html#ref8_128099"><b>common</b></a></p>
+<p>Stereotype: struct</p>
+<div class="sub">
+<div class="sub">
+<a name="ref1_128099"></a>
+<table><tr><td><div class="element">Attribute <b>x</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>Uml : + x : float</li><li>C++ : public: float x</li></ul><a name="ref1_128227"></a>
+<table><tr><td><div class="element">Attribute <b>y</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>Uml : + y : float</li><li>C++ : public: float y</li></ul><a name="ref2_128099"></a>
+<table><tr><td><div class="element">Operation <b>Vec2</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + Vec2(in x_ : float, in y_ : float) : </li><li>C++ : public: inline Vec2(float x_, float y_)</li></ul><a name="ref2_128227"></a>
+<table><tr><td><div class="element">Operation <b>Vec2</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + Vec2() : </li><li>C++ : public: inline Vec2()</li></ul></div>
+</div>
+<a name="ref4_128483"></a>
+<h4 class ="class">1.1.1.4 Class Drawable</h4>
+<p>Declaration :</p><ul>
+<li>C++ : struct Drawable </li></ul><p>Directly inherited by : <a href="index.html#ref4_129891"><b>CreateImage</b></a> <a href="index.html#ref4_129763"><b>CreateLine</b></a> <a href="index.html#ref4_128867"><b>Layer</b></a> </p>
+<p>Artifact : <a href="index.html#ref8_128099"><b>common</b></a></p>
+<p>Stereotype: struct</p>
+<div class="sub">
+<div class="sub">
+<a name="ref2_128355"></a>
+<table><tr><td><div class="element">Operation <b>GL_Show</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : abstract, + GL_Show() : bool</li><li>C++ : public: virtual bool GL_Show()= 0 </li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref2_128355"><b>GL_Show</b></a> </p>
+</div>
+<a name="ref21_128099"></a>
+<h3 class ="view">1.1.2 Deployment View include</h3>
+<div class="sub">
+<a name="ref8_128099"></a>
+<table><tr><td><div class="element">Artifact <b>common</b></div></td></tr></table>
+<p>Stereotype: source</p>
+<p>Artifact <i>source</i> associated with : <a href="index.html#ref4_128099"><b>byte</b></a>, <a href="index.html#ref4_128227"><b>u32</b></a>, <a href="index.html#ref4_128355"><b>Vec2</b></a>, <a href="index.html#ref4_128483"><b>Drawable</b></a></p>
+</div>
+<a name="ref22_128355"></a>
+<h3 class ="package">1.1.3 Package evthandler</h3>
+<p></p><ul>
+<li>C++ namespace : ImageArch</li>
+</ul>
+<div class="sub">
+<a name="ref18_128227"></a>
+<h4 class ="view">1.1.3.1 Class View evthandler</h4>
+<div class="sub">
+<a name="ref4_128611"></a>
+<h4 class ="class">1.1.3.1.1 Class Interactable</h4>
+<p>Declaration :</p><ul>
+<li>C++ : struct Interactable </li></ul><p>Artifact : <a href="index.html#ref8_128227"><b>event_handler</b></a></p>
+<p>Stereotype: struct</p>
+<div class="sub">
+<div class="sub">
+<a name="ref2_128483"></a>
+<table><tr><td><div class="element">Operation <b>MouseMove</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : abstract, + MouseMove(inout canvas : <a href="index.html#ref4_128739"><b>Canvas</b></a>, in opType : int, in x : int, in y : int) : void</li><li>C++ : public: virtual void MouseMove(<a href="index.html#ref4_128739"><b>Canvas</b></a> &amp; canvas, int opType, int x, int y)= 0 </li></ul><a name="ref2_128611"></a>
+<table><tr><td><div class="element">Operation <b>PrimaryMouseButtonDown</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : abstract, + PrimaryMouseButtonDown(inout canvas : <a href="index.html#ref4_128739"><b>Canvas</b></a>, in opType : int, in shift : bool, in ctrl : bool, in alt : bool, in super : bool) : void</li><li>C++ : public: virtual void PrimaryMouseButtonDown(<a href="index.html#ref4_128739"><b>Canvas</b></a> &amp; canvas, int opType, bool shift, bool ctrl, bool alt, bool super)= 0 </li></ul><a name="ref2_128739"></a>
+<table><tr><td><div class="element">Operation <b>PrimaryMouseButtonUp</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : abstract, + PrimaryMouseButtonUp(inout canvas : <a href="index.html#ref4_128739"><b>Canvas</b></a>, in opType : int, in shift : bool, in ctrl : bool, in alt : bool, in super : bool) : void</li><li>C++ : public: virtual void PrimaryMouseButtonUp(<a href="index.html#ref4_128739"><b>Canvas</b></a> &amp; canvas, int opType, bool shift, bool ctrl, bool alt, bool super)= 0 </li></ul><a name="ref2_128867"></a>
+<table><tr><td><div class="element">Operation <b>SecondaryMouseButtonDown</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : abstract, + SecondaryMouseButtonDown(inout canvas : <a href="index.html#ref4_128739"><b>Canvas</b></a>, in opType : int, in shift : bool, in ctrl : bool, in alt : bool, in super : bool) : void</li><li>C++ : public: virtual void SecondaryMouseButtonDown(<a href="index.html#ref4_128739"><b>Canvas</b></a> &amp; canvas, int opType, bool shift, bool ctrl, bool alt, bool super)= 0 </li></ul><a name="ref2_128995"></a>
+<table><tr><td><div class="element">Operation <b>SecondaryMouseButtonUp</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : abstract, + SecondaryMouseButtonUp(inout canvas : <a href="index.html#ref4_128739"><b>Canvas</b></a>, in opType : int, in shift : bool, in ctrl : bool, in alt : bool, in super : bool) : void</li><li>C++ : public: virtual void SecondaryMouseButtonUp(<a href="index.html#ref4_128739"><b>Canvas</b></a> &amp; canvas, int opType, bool shift, bool ctrl, bool alt, bool super)= 0 </li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref2_128483"><b>MouseMove</b></a> , <a href="index.html#ref2_128611"><b>PrimaryMouseButtonDown</b></a> , <a href="index.html#ref2_128739"><b>PrimaryMouseButtonUp</b></a> , <a href="index.html#ref2_128867"><b>SecondaryMouseButtonDown</b></a> , <a href="index.html#ref2_128995"><b>SecondaryMouseButtonUp</b></a> </p>
+<a name="ref4_129123"></a>
+<h4 class ="class">1.1.3.1.2 Class EventHandler</h4>
+<p>Declaration :</p><ul>
+<li>C++ : class EventHandler </li></ul></div>
+<a name="ref21_128227"></a>
+<h4 class ="view">1.1.3.2 Deployment View evthandler</h4>
+<div class="sub">
+<a name="ref8_128227"></a>
+<table><tr><td><div class="element">Artifact <b>event_handler</b></div></td></tr></table>
+<p>Stereotype: source</p>
+<p>Artifact <i>source</i> associated with : <a href="index.html#ref4_128611"><b>Interactable</b></a></p>
+</div>
+</div>
+<a name="ref22_128483"></a>
+<h3 class ="package">1.1.4 Package layers</h3>
+<p></p><ul>
+<li>C++ namespace : ImageArch</li>
+</ul>
+<div class="sub">
+<a name="ref18_128355"></a>
+<h4 class ="view">1.1.4.1 Class View layers</h4>
+<div class="sub">
+<a name="ref4_128739"></a>
+<h4 class ="class">1.1.4.1.1 Class Canvas</h4>
+<p>Declaration :</p><ul>
+<li>C++ : class Canvas </li></ul><p>Artifact : <a href="index.html#ref8_128355"><b>canvas</b></a></p>
+<div class="sub">
+<div class="sub">
+<a name="ref2_129123"></a>
+<table><tr><td><div class="element">Operation <b>Canvas</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + Canvas(in w : int, in h : int, in name : char) : </li><li>C++ : public: inline Canvas(int w, int h, const char * name)</li></ul><a name="ref2_129251"></a>
+<table><tr><td><div class="element">Operation <b>AddLayer</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + AddLayer() : <a href="index.html#ref4_128867"><b>Layer</b></a></li><li>C++ : public: inline <a href="index.html#ref4_128867"><b>Layer</b></a> &amp; AddLayer()</li></ul><a name="ref2_129379"></a>
+<table><tr><td><div class="element">Operation <b>SelectLayer</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + SelectLayer(in idx : int) : void</li><li>C++ : public: inline void SelectLayer(int idx)</li></ul><a name="ref2_129507"></a>
+<table><tr><td><div class="element">Operation <b>RemoveCurrentLayer</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + RemoveCurrentLayer() : void</li><li>C++ : public: inline void RemoveCurrentLayer()</li></ul><a name="ref2_129635"></a>
+<table><tr><td><div class="element">Operation <b>CurrentLayer</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + CurrentLayer() : <a href="index.html#ref4_128867"><b>Layer</b></a></li><li>C++ : public: inline <a href="index.html#ref4_128867"><b>Layer</b></a> &amp; CurrentLayer()</li></ul><a name="ref2_129763"></a>
+<table><tr><td><div class="element">Operation <b>GetImage</b></div></td></tr></table><p> Draw in GPU and return texId OR draw in memory and return a bitmap array<br /><br /></p><p>Declaration :</p><ul><li>Uml : + GetImage() : void</li><li>C++ : public: void * GetImage()</li></ul><a name="ref0_128099"></a>
+<table><tr><td><div class="element">Relation <b>_layers (&lt;directional composition&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : - _layers : <a href="index.html#ref4_128867"><b>Layer</b></a></li><li>C++ : private: std::vector&lt;<a href="index.html#ref4_128867"><b>Layer</b></a>&gt; _layers</li></ul><p>Stereotype: std::vector</p>
+<a name="ref1_128355"></a>
+<table><tr><td><div class="element">Attribute <b>_width</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>Uml : - _width : int</li><li>C++ : private: int _width</li></ul><a name="ref1_128483"></a>
+<table><tr><td><div class="element">Attribute <b>_height</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>Uml : - _height : int</li><li>C++ : private: int _height</li></ul><a name="ref1_128611"></a>
+<table><tr><td><div class="element">Attribute <b>_count</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>Uml : - _count : int</li><li>C++ : private: int _count</li></ul><a name="ref1_128739"></a>
+<table><tr><td><div class="element">Attribute <b>_name</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>Uml : - _name : std::string</li><li>C++ : private: std::string _name</li></ul><a name="ref0_128227"></a>
+<table><tr><td><div class="element">Relation <b>_actionsChain (&lt;directional composition&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : - _actionsChain : <a href="index.html#ref4_128995"><b>OperatorsChain</b></a></li><li>C++ : private: <a href="index.html#ref4_128995"><b>OperatorsChain</b></a> _actionsChain</li></ul><a name="ref0_128355"></a>
+<table><tr><td><div class="element">Relation <b>_eventHandler (&lt;directional composition&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : - _eventHandler : <a href="index.html#ref4_129123"><b>EventHandler</b></a></li><li>C++ : private: <a href="index.html#ref4_129123"><b>EventHandler</b></a> _eventHandler</li></ul><a name="ref0_128483"></a>
+<table><tr><td><div class="element">Relation <b>_bitmapData (&lt;unidirectional association&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : - _bitmapData : <a href="index.html#ref4_128099"><b>byte</b></a></li><li>C++ : private: <a href="index.html#ref4_128099"><b>byte</b></a> * _bitmapData</li></ul><a name="ref1_128867"></a>
+<table><tr><td><div class="element">Attribute <b>_selectedLayer</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>Uml : - _selectedLayer : int</li><li>C++ : private: int _selectedLayer</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref2_129251"><b>AddLayer</b></a> , <a href="index.html#ref2_129635"><b>CurrentLayer</b></a> , <a href="index.html#ref2_129763"><b>GetImage</b></a> , <a href="index.html#ref2_129507"><b>RemoveCurrentLayer</b></a> , <a href="index.html#ref2_129379"><b>SelectLayer</b></a> </p>
+<a name="ref4_128867"></a>
+<h4 class ="class">1.1.4.1.2 Class Layer</h4>
+<p>Declaration :</p><ul>
+<li>C++ : class Layer : private <a href="index.html#ref4_128483"><b>Drawable</b></a> </li></ul><p>Artifact : <a href="index.html#ref8_128483"><b>layer</b></a></p>
+<div class="sub">
+<div class="sub">
+<a name="ref2_129891"></a>
+<table><tr><td><div class="element">Operation <b>Layer</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + Layer(in w : int, in h : int, in z : int, in pos : <a href="index.html#ref4_128355"><b>Vec2</b></a>, inout opChain : <a href="index.html#ref4_128995"><b>OperatorsChain</b></a>, inout eventHandler : <a href="index.html#ref4_129123"><b>EventHandler</b></a>) : </li><li>C++ : public: inline Layer(int w, int h, int z, const <a href="index.html#ref4_128355"><b>Vec2</b></a> &amp; pos, <a href="index.html#ref4_128995"><b>OperatorsChain</b></a> &amp; opChain, <a href="index.html#ref4_129123"><b>EventHandler</b></a> &amp; eventHandler)</li></ul><a name="ref2_130019"></a>
+<table><tr><td><div class="element">Operation <b>AddOperation</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + AddOperation(in op : std::unique_ptr&lt;BaseOperator&gt;, inout repr : <a href="index.html#ref4_129251"><b>BaseRepresenter</b></a>) : bool</li><li>C++ : public: inline bool AddOperation(std::unique_ptr&lt;BaseOperator&gt; op, <a href="index.html#ref4_129251"><b>BaseRepresenter</b></a> &amp; repr)</li></ul><a name="ref2_130147"></a>
+<table><tr><td><div class="element">Operation <b>GL_Show</b></div></td></tr></table><p> Drawable <br /></p><p>Declaration :</p><ul><li>Uml : + GL_Show() : bool</li><li>C++ : public: bool GL_Show()</li></ul><a name="ref2_130275"></a>
+<table><tr><td><div class="element">Operation <b>Id</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + Id() : int</li><li>C++ : public: inline const int Id() const</li></ul><a name="ref1_128995"></a>
+<table><tr><td><div class="element">Attribute <b>_width</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>Uml : - _width : int</li><li>C++ : private: int _width</li></ul><a name="ref1_129123"></a>
+<table><tr><td><div class="element">Attribute <b>_height</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>Uml : - _height : int</li><li>C++ : private: int _height</li></ul><a name="ref1_129251"></a>
+<table><tr><td><div class="element">Attribute <b>_zorder</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>Uml : - _zorder : int</li><li>C++ : private: int _zorder</li></ul><a name="ref0_128739"></a>
+<table><tr><td><div class="element">Relation <b>_upleftPos (&lt;directional composition&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : - _upleftPos : <a href="index.html#ref4_128355"><b>Vec2</b></a></li><li>C++ : private: <a href="index.html#ref4_128355"><b>Vec2</b></a> _upleftPos</li></ul><a name="ref1_129379"></a>
+<table><tr><td><div class="element">Attribute <b>_id</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>Uml : - _id : int</li><li>C++ : private: int _id</li></ul><a name="ref1_129507"></a>
+<table><tr><td><div class="element">Attribute <b>_visible</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>Uml : - _visible : bool</li><li>C++ : private: bool _visible</li></ul><a name="ref0_128867"></a>
+<table><tr><td><div class="element">Relation <b>_opChain (&lt;unidirectional association&gt;)</b></div></td></tr></table><p> Reference to Canvas' operation list. Can be filtered to current layer<br /><br /><br /></p><p>Declaration :</p><ul><li>Uml : - _opChain : <a href="index.html#ref4_128995"><b>OperatorsChain</b></a></li><li>C++ : private: <a href="index.html#ref4_128995"><b>OperatorsChain</b></a> &amp; _opChain</li></ul><a name="ref0_128995"></a>
+<table><tr><td><div class="element">Relation <b>_eventHandler (&lt;unidirectional association&gt;)</b></div></td></tr></table><p> Event Handler instance for given canvas<br /><br /><br /></p><p>Declaration :</p><ul><li>Uml : - _eventHandler : <a href="index.html#ref4_129123"><b>EventHandler</b></a></li><li>C++ : private: <a href="index.html#ref4_129123"><b>EventHandler</b></a> &amp; _eventHandler</li></ul><a name="ref0_129123"></a>
+<table><tr><td><div class="element">Relation <b>_layerRepresenter (&lt;directional composition&gt;)</b></div></td></tr></table><p> UI representer for layer itself<br /><br /><br /></p><p>Declaration :</p><ul><li>Uml : - _layerRepresenter : <a href="index.html#ref4_129379"><b>GuiRepresenter</b></a></li><li>C++ : private: <a href="index.html#ref4_129379"><b>GuiRepresenter</b></a> _layerRepresenter</li></ul><a name="ref1_129635"></a>
+<table><tr><td><div class="element">Attribute <b>_representers</b></div></td></tr></table>
+<p> Representers for ui objects belong to this layer<br /><br /><br /></p><p>Declaration :</p><ul><li>Uml : - _representers : std::unique_ptr&lt;BaseRepresenter&gt;</li><li>C++ : private: std::vector&lt;std::unique_ptr&lt;BaseRepresenter&gt;&gt; _representers</li></ul><p>Stereotype: std::vector</p>
+</div>
+</div>
+<p>All public operations : <a href="index.html#ref2_130019"><b>AddOperation</b></a> , <a href="index.html#ref2_128355"><b>GL_Show</b></a> , <a href="index.html#ref2_130147"><b>GL_Show</b></a> , <a href="index.html#ref2_130275"><b>Id</b></a> </p>
+</div>
+<a name="ref21_128355"></a>
+<h4 class ="view">1.1.4.2 Deployment View layers</h4>
+<div class="sub">
+<a name="ref8_128355"></a>
+<table><tr><td><div class="element">Artifact <b>canvas</b></div></td></tr></table>
+<p>Stereotype: source</p>
+<p>Artifact <i>source</i> associated with : <a href="index.html#ref4_128739"><b>Canvas</b></a></p>
+<a name="ref8_128483"></a>
+<table><tr><td><div class="element">Artifact <b>layer</b></div></td></tr></table>
+<p>Stereotype: source</p>
+<p>Artifact <i>source</i> associated with : <a href="index.html#ref4_128867"><b>Layer</b></a></p>
+</div>
+</div>
+<a name="ref22_128611"></a>
+<h3 class ="package">1.1.5 Package operators</h3>
+<p></p><ul>
+<li>C++ namespace : ImageArch</li>
+</ul>
+<div class="sub">
+<a name="ref18_128483"></a>
+<h4 class ="view">1.1.5.1 Class View operators</h4>
+<div class="sub">
+<a name="ref4_128995"></a>
+<h4 class ="class">1.1.5.1.1 Class OperatorsChain</h4>
+<p>Declaration :</p><ul>
+<li>C++ : class OperatorsChain </li></ul><p>Artifact : <a href="index.html#ref8_128995"><b>operators_chain</b></a></p>
+<div class="sub">
+<div class="sub">
+<a name="ref2_131299"></a>
+<table><tr><td><div class="element">Operation <b>OperatorsChain</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + OperatorsChain() : </li><li>C++ : public: inline OperatorsChain()</li></ul><a name="ref2_131427"></a>
+<table><tr><td><div class="element">Operation <b>Push</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + Push(in op : std::unique_ptr&lt;TI_BaseOperator&gt;, in layerId : int) : void</li><li>C++ : public: inline void Push(std::unique_ptr&lt;TI_BaseOperator&gt; op, int layerId)</li></ul><a name="ref2_131555"></a>
+<table><tr><td><div class="element">Operation <b>Pop</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + Pop(in layerId : int = -1) : <a href="index.html#ref4_130019"><b>OperatorDetails</b></a></li><li>C++ : public: inline <a href="index.html#ref4_130019"><b>OperatorDetails</b></a> Pop(int layerId = -1)</li></ul><a name="ref0_130147"></a>
+<table><tr><td><div class="element">Relation <b>_opChain (&lt;directional composition&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : - _opChain : <a href="index.html#ref4_130019"><b>OperatorDetails</b></a></li><li>C++ : private: std::vector&lt;<a href="index.html#ref4_130019"><b>OperatorDetails</b></a>&gt; _opChain</li></ul><p>Stereotype: std::vector</p>
+</div>
+</div>
+<p>All public operations : <a href="index.html#ref2_131555"><b>Pop</b></a> , <a href="index.html#ref2_131427"><b>Push</b></a> </p>
+<a name="ref4_129251"></a>
+<h4 class ="class">1.1.5.1.2 Class BaseRepresenter</h4>
+<p>Declaration :</p><ul>
+<li>C++ : class BaseRepresenter </li></ul><a name="ref4_129379"></a>
+<h4 class ="class">1.1.5.1.3 Class GuiRepresenter</h4>
+<p>Declaration :</p><ul>
+<li>C++ : class GuiRepresenter </li></ul><a name="ref4_129507"></a>
+<h4 class ="class">1.1.5.1.4 Class BaseOperator</h4>
+<p>Declaration :</p><ul>
+<li>C++ : struct BaseOperator </li></ul><p>Directly inherited by : <a href="index.html#ref4_129891"><b>CreateImage</b></a> <a href="index.html#ref4_129763"><b>CreateLine</b></a> <a href="index.html#ref4_129635"><b>TI_BaseOperator</b></a> </p>
+<p>Artifact : <a href="index.html#ref8_128611"><b>base_operator</b></a></p>
+<p>Stereotype: struct</p>
+<div class="sub">
+<div class="sub">
+<a name="ref1_129763"></a>
+<table><tr><td><div class="element">Attribute <b>type</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>Uml : + type : int</li><li>C++ : public: int type</li></ul><a name="ref0_129251"></a>
+<table><tr><td><div class="element">Relation <b>guid (&lt;directional composition&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + guid : <a href="index.html#ref4_128099"><b>byte</b></a>, multiplicity : [16]</li><li>C++ : public: <a href="index.html#ref4_128099"><b>byte</b></a> guid[16]</li></ul><a name="ref1_129891"></a>
+<table><tr><td><div class="element">Attribute <b>displayName</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>Uml : + displayName : std::string</li><li>C++ : public: std::string displayName</li></ul><a name="ref1_130019"></a>
+<table><tr><td><div class="element">Attribute <b>opName</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>Uml : + opName : std::string</li><li>C++ : public: std::string opName</li></ul><a name="ref2_130403"></a>
+<table><tr><td><div class="element">Operation <b>BaseOperator</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + BaseOperator(in type_ : int) : </li><li>C++ : public: inline BaseOperator(int type_)</li></ul></div>
+</div>
+<a name="ref4_129763"></a>
+<h4 class ="class">1.1.5.1.5 Class CreateLine</h4>
+<p>Declaration :</p><ul>
+<li>C++ : struct CreateLine : private <a href="index.html#ref4_129507"><b>BaseOperator</b></a>, private <a href="index.html#ref4_128483"><b>Drawable</b></a> </li></ul><p>Artifact : <a href="index.html#ref8_128867"><b>creator</b></a></p>
+<p>Stereotype: struct</p>
+<div class="sub">
+<div class="sub">
+<a name="ref2_130531"></a>
+<table><tr><td><div class="element">Operation <b>CreateLine</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + CreateLine(in pos1 : <a href="index.html#ref4_128355"><b>Vec2</b></a>, in pos2 : <a href="index.html#ref4_128355"><b>Vec2</b></a>, in color : <a href="index.html#ref4_128227"><b>u32</b></a>, in thickness : float = 1.0f) : </li><li>C++ : public: inline CreateLine(const <a href="index.html#ref4_128355"><b>Vec2</b></a> &amp; pos1, const <a href="index.html#ref4_128355"><b>Vec2</b></a> &amp; pos2, <a href="index.html#ref4_128227"><b>u32</b></a> color, float thickness = 1.0f)</li></ul><a name="ref2_130659"></a>
+<table><tr><td><div class="element">Operation <b>GL_Show</b></div></td></tr></table><p> Drawable<br /></p><p>Declaration :</p><ul><li>Uml : + GL_Show() : bool</li><li>C++ : public: bool GL_Show()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref2_130659"><b>GL_Show</b></a> , <a href="index.html#ref2_128355"><b>GL_Show</b></a> </p>
+<a name="ref4_129891"></a>
+<h4 class ="class">1.1.5.1.6 Class CreateImage</h4>
+<p>Declaration :</p><ul>
+<li>C++ : struct CreateImage : private <a href="index.html#ref4_129507"><b>BaseOperator</b></a>, private <a href="index.html#ref4_128483"><b>Drawable</b></a> </li></ul><p>Artifact : <a href="index.html#ref8_128867"><b>creator</b></a></p>
+<p>Stereotype: struct</p>
+<div class="sub">
+<div class="sub">
+<a name="ref2_130787"></a>
+<table><tr><td><div class="element">Operation <b>CreateImage</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + CreateImage(inout texture : void, in pos : <a href="index.html#ref4_128355"><b>Vec2</b></a>, in width : int, in height : int) : </li><li>C++ : public: inline CreateImage(void * texture, const <a href="index.html#ref4_128355"><b>Vec2</b></a> &amp; pos, int width, int height)</li></ul><a name="ref2_130915"></a>
+<table><tr><td><div class="element">Operation <b>GL_Show</b></div></td></tr></table><p> Drawable<br /></p><p>Declaration :</p><ul><li>Uml : + GL_Show() : bool</li><li>C++ : public: bool GL_Show()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref2_130915"><b>GL_Show</b></a> , <a href="index.html#ref2_128355"><b>GL_Show</b></a> </p>
+<a name="ref4_130019"></a>
+<h4 class ="class">1.1.5.1.7 Class OperatorDetails</h4>
+<p>Declaration :</p><ul>
+<li>C++ : struct OperatorDetails </li></ul><p>Artifact : <a href="index.html#ref8_128995"><b>operators_chain</b></a></p>
+<p>Stereotype: struct</p>
+<div class="sub">
+<div class="sub">
+<a name="ref0_130019"></a>
+<table><tr><td><div class="element">Relation <b>_op (&lt;directional composition&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + _op : <a href="index.html#ref4_129635"><b>TI_BaseOperator</b></a></li><li>C++ : public: std::unique_ptr&lt;<a href="index.html#ref4_129635"><b>TI_BaseOperator</b></a>&gt; _op</li></ul><p>Stereotype: std::unique_ptr</p>
+<a name="ref1_130147"></a>
+<table><tr><td><div class="element">Attribute <b>_layerId</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>Uml : + _layerId : int</li><li>C++ : public: int _layerId</li></ul><a name="ref1_130275"></a>
+<table><tr><td><div class="element">Attribute <b>_id</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>Uml : + _id : long long</li><li>C++ : public: long long _id</li></ul><a name="ref2_131043"></a>
+<table><tr><td><div class="element">Operation <b>OperatorDetails</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + OperatorDetails() : </li><li>C++ : public: inline OperatorDetails()</li></ul><a name="ref2_131171"></a>
+<table><tr><td><div class="element">Operation <b>OperatorDetails</b></div></td></tr></table><p>Declaration :</p><ul><li>Uml : + OperatorDetails(in op : std::unique_ptr&lt;TI_BaseOperator&gt;, in layerId : int) : </li><li>C++ : public: inline OperatorDetails(std::unique_ptr&lt;TI_BaseOperator&gt; op, int layerId)</li></ul></div>
+</div>
+</div>
+<a name="ref21_128483"></a>
+<h4 class ="view">1.1.5.2 Deployment View operators</h4>
+<div class="sub">
+<a name="ref8_128611"></a>
+<table><tr><td><div class="element">Artifact <b>base_operator</b></div></td></tr></table>
+<p>Stereotype: source</p>
+<p>Artifact <i>source</i> associated with : <a href="index.html#ref4_129507"><b>BaseOperator</b></a></p>
+<a name="ref8_128867"></a>
+<table><tr><td><div class="element">Artifact <b>creator</b></div></td></tr></table>
+<p>Stereotype: source</p>
+<p>Artifact <i>source</i> associated with : <a href="index.html#ref4_129763"><b>CreateLine</b></a>, <a href="index.html#ref4_129891"><b>CreateImage</b></a></p>
+<a name="ref8_128995"></a>
+<table><tr><td><div class="element">Artifact <b>operators_chain</b></div></td></tr></table>
+<p>Stereotype: source</p>
+<p>Artifact <i>source</i> associated with : <a href="index.html#ref4_130019"><b>OperatorDetails</b></a>, <a href="index.html#ref4_128995"><b>OperatorsChain</b></a></p>
+</div>
+<a name="ref22_128739"></a>
+<h4 class ="package">1.1.5.3 Package operators</h4>
+<div class="sub">
+<a name="ref18_128611"></a>
+<h4 class ="view">1.1.5.3.1 Class View operators</h4>
+<div class="sub">
+<a name="ref4_129635"></a>
+<h4 class ="class">1.1.5.3.1.1 Class TI_BaseOperator</h4>
+<p> ns<br /></p>
+<p>Declaration :</p><ul>
+<li>C++ : using TI_BaseOperator =  : public <a href="index.html#ref4_129507"><b>BaseOperator</b></a>; </li></ul><p>Artifact : <a href="index.html#ref8_128739"><b>base_operator</b></a></p>
+<p>Stereotype: template_typedef</p>
+<div class="sub">
+<div class="sub">
+</div>
+</div>
+</div>
+<a name="ref21_128611"></a>
+<h4 class ="view">1.1.5.3.2 Deployment View operators</h4>
+<div class="sub">
+<a name="ref8_128739"></a>
+<table><tr><td><div class="element">Artifact <b>base_operator</b></div></td></tr></table>
+<p>Stereotype: source</p>
+<p>Artifact <i>source</i> associated with : <a href="index.html#ref4_129635"><b>TI_BaseOperator</b></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
